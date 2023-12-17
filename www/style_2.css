@@ -1,0 +1,96 @@
+
+.horizontal-container {
+	display: flex;
+	align-items: center; /* Align items vertically */
+	/*justify-content: left; /* Distribute items horizontally */
+	background-color: #000000;
+	position:sticky;
+	top: 0;
+	width: 100%;
+  }
+  
+  .logo {
+	margin-right: 20px; /* Adjust spacing between the logo and navigation */
+  }
+  
+  .logo img {
+	width: 100px; /* Adjust the width of the logo */
+	height: auto; /* Maintain aspect ratio */
+  }
+  
+  .nav-links {
+	list-style: none; /* Remove default list styles */
+	display: flex; /* Display list items horizontally */
+	justify-content: left;
+	
+  }
+  
+  .nav-links li a {
+	margin-right: 15px; /* Adjust spacing between navigation links */
+	text-decoration: none !important;
+	color: rgb(252, 252, 252); 
+	font-family: 'Times New Roman', Times, serif;
+	font-size: large;
+	transition: background-color 0.3s, color 0.3s; /* Transition for background color and text color */
+  }
+  
+  .nav-links li a:hover {
+	font-size: larger;
+  
+  }
+
+  .login-container .login-button {
+	justify-content: right;
+  }
+
+  .filter {
+	flex:1; 
+  }
+
+  
+  .projects {
+	flex: 3; /* Occupy two-thirds of the space */
+	display: flex;
+	justify-content: left;
+  }
+  
+  
+  
+  .copyright-section {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	padding: 10px 0; /* Add padding for better appearance */;
+  }
+  
+  .final {
+	margin-left: 3px;
+	margin-right: 3px; /* Adjust the right margin as needed */
+	border-color: white;
+	box-shadow: #000000;
+	max-width: 200px; /* Set a maximum width for the description */
+	
+	
+	
+	
+  }
+
+  .final .product-image{
+	width: 200px;
+	height: 120px;
+  }
+
+  .description{
+	max-height: 50em;
+	overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .signup  {
+	display: inline-grid !important;
+  }
+  
+
