@@ -43,7 +43,7 @@
     </form>
   </section>
 
-
+<!--
 <div>
 <?php include('config/customers.php'); ?>
   <h2> Current Customers </h2>
@@ -54,6 +54,6 @@
         <h2>   <?php echo $customer['location'] ?>  </h2>  
     <?php }?>
   </div>
-
+  -->
 <?php include('footer.php'); ?>
 </html>

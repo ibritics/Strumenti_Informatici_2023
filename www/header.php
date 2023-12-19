@@ -5,7 +5,7 @@
 <body>
   <div class="horizontal-container">
     <div class="logo">
-      <img src="IBRITICS_LOGO.png" alt="IBRITICS">
+      <img src="logo.png" alt="Logo">
     </div>
     <ul class="nav-links">
       <li><a href="index.php">Home</a></li>

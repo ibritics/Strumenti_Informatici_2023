@@ -4,7 +4,7 @@ $sql = 'SELECT ID, TITLE, DESCRIPTION , IMAGE FROM products';
 $result = mysqli_query($conn, $sql);
 $products = mysqli_fetch_all($result, MYSQLI_ASSOC);
 mysqli_close($conn);
-//echo $products;
+//echo $products; //stampare
 //print_r($products)
 ?>
 
@@ -21,11 +21,6 @@ mysqli_close($conn);
         </ul>
     </div> -->
   
-
- 
-
-
-
     <div class="projects">
     <?php foreach($products as $product) { ?>
         <div class="col">
